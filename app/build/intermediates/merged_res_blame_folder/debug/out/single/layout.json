@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\bharathkumar\\AndroidStudioProjects\\colorblocker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_for_profile.xml",
+        "source": "C:\\Users\\bharathkumar\\AndroidStudioProjects\\colorblocker\\app\\src\\main\\res\\layout\\layout_for_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\bharathkumar\\AndroidStudioProjects\\colorblocker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\bharathkumar\\AndroidStudioProjects\\colorblocker\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\bharathkumar\\AndroidStudioProjects\\colorblocker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_edit_image.xml",
+        "source": "C:\\Users\\bharathkumar\\AndroidStudioProjects\\colorblocker\\app\\src\\main\\res\\layout\\activity_edit_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\bharathkumar\\AndroidStudioProjects\\colorblocker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\list_type_recylervirew_layout.xml",
+        "source": "C:\\Users\\bharathkumar\\AndroidStudioProjects\\colorblocker\\app\\src\\main\\res\\layout\\list_type_recylervirew_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\bharathkumar\\AndroidStudioProjects\\colorblocker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_for_editor.xml",
+        "source": "C:\\Users\\bharathkumar\\AndroidStudioProjects\\colorblocker\\app\\src\\main\\res\\layout\\layout_for_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\bharathkumar\\AndroidStudioProjects\\colorblocker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\imagelist.xml",
+        "source": "C:\\Users\\bharathkumar\\AndroidStudioProjects\\colorblocker\\app\\src\\main\\res\\layout\\imagelist.xml"
+    },
+    {
+        "merged": "C:\\Users\\bharathkumar\\AndroidStudioProjects\\colorblocker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\home_fragment_dashboard.xml",
+        "source": "C:\\Users\\bharathkumar\\AndroidStudioProjects\\colorblocker\\app\\src\\main\\res\\layout\\home_fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\bharathkumar\\AndroidStudioProjects\\colorblocker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\grid_type_recylserview.xml",
+        "source": "C:\\Users\\bharathkumar\\AndroidStudioProjects\\colorblocker\\app\\src\\main\\res\\layout\\grid_type_recylserview.xml"
+    },
+    {
+        "merged": "C:\\Users\\bharathkumar\\AndroidStudioProjects\\colorblocker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\onboarding.xml",
+        "source": "C:\\Users\\bharathkumar\\AndroidStudioProjects\\colorblocker\\app\\src\\main\\res\\layout\\onboarding.xml"
+    },
+    {
+        "merged": "C:\\Users\\bharathkumar\\AndroidStudioProjects\\colorblocker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\splash.xml",
+        "source": "C:\\Users\\bharathkumar\\AndroidStudioProjects\\colorblocker\\app\\src\\main\\res\\layout\\splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\bharathkumar\\AndroidStudioProjects\\colorblocker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\bottom_add_phone_number.xml",
+        "source": "C:\\Users\\bharathkumar\\AndroidStudioProjects\\colorblocker\\app\\src\\main\\res\\layout\\bottom_add_phone_number.xml"
+    }
+]
