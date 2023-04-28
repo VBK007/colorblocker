@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View"/>
+        <import type="com.withcodeplays.enuming.FilterAverageStatus" />
+
+       <variable
+           name="actions"
+           type="FilterAverageStatus" />
+
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/purple_500"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:id="@+id/appBarLayout"
+            android:background="#50050933"
+            android:layout_height="40dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/my_studio"
+                    android:textSize="22sp"
+                    android:textColor="@color/white"
+                    />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/ic_baseline_account_circle_24"
+                    app:tint="@color/white" />
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_below="@+id/appBarLayout"
+            android:fillViewport="true"
+            tools:visibility="visible"
+            android:visibility='@{actions==FilterAverageStatus.ShowData?View.VISIBLE:View.GONE,default=gone}'
+            android:layout_height="match_parent">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:orientation="vertical"
+               android:layout_height="match_parent">
+               <androidx.recyclerview.widget.RecyclerView
+                   android:layout_width="match_parent"
+                   android:orientation="vertical"
+                   android:nestedScrollingEnabled="false"
+                   tools:itemCount="12"
+                   tools:listitem="@layout/grid_type_recylserview"
+                   app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                   android:layout_height="match_parent"
+                   android:id="@+id/mainRecyler"
+                   android:layout_marginTop="2dp"
+                   />
+
+           </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility='@{actions==FilterAverageStatus.Loader?View.VISIBLE:View.GONE,default=visible}'
+            android:layout_centerInParent="true"
+            android:id="@+id/progressBar"
+            android:indeterminateTint="@color/white"
+            />
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            tools:visibility="gone"
+            android:layout_centerInParent="true"
+            android:visibility='@{actions==FilterAverageStatus.NoData?View.VISIBLE:View.GONE,default=gone}'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="30dp"
+                android:src="@drawable/camera"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:text="@string/stringis"
+                android:textSize="18sp"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/btnRetry"
+                android:textColor="@color/white"
+                android:text="@string/retry"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/purple_700"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+</layout>
